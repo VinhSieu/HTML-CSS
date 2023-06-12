@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8"/>
+    <title>08</title>
+    <script type="text/javascript" src="js/jquery-3.5.1.js">
+    </script>
+    <script>
+         $(document) .ready (function(){
+             $("#web1"). click(function(){
+                 var s=$ ("#web1") .attr("src");
+                 if (s=="image/image1.png"){
+                     $("#web1").attr("src", "image/image2.png");
+                 }else
+             {
+                 $("#web1").attr("src","image/image1.png");
+             }
+             });
+         });
+    </script>
+</head>
+<body>
+    <img id="web1" src="image/image1.png" alt="hinh 1"/>
+</body>
+</html>

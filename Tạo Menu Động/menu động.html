@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+    <title>Slider Menu</title>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js">
+    </script>
+    <script>
+        $(document) .ready (function(){
+            $(".cap2") .hide();
+            $(".cap1") .mouseover (function(){
+                $(this) .next() .slideToggle(); 
+            });
+        });
+    </script>
+    <style>
+        #menu{
+            width: 200px;}
+        .cap1{
+            background-color: #F00;
+            color: #FF0;
+            font: Georgia, "Times New Roman", Times, serif;
+            font-weight: bold;
+            padding: 5px;
+        }
+        .cap2 a:link, .cap2 a:visited{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <div class="cap1"> Khóa học</div>
+        <div class="cap2">
+            <a href="#">  HTML5 cơ bản</a>
+            <a href="#"> HTML5 nâng cao</a>
+            <a href="#"> Kỹ Thuật HTML5</a>
+            <a href="#"> Tin tức HTML5</a>
+        </div>
+        <div class="cap1"> Khóa học</div>
+        <div class="cap2">
+            <a href="#">  HTML5 cơ bản</a>
+            <a href="#"> HTML5 nâng cao</a>
+            <a href="#"> Kỹ Thuật HTML5</a>
+            <a href="#"> Tin tức HTML5</a>
+    </div>
+</body>
+</html>

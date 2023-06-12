@@ -1,0 +1,197 @@
+body {
+    margin: 0px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #01203d;
+    width: 1280px;
+    height: 128px;
+}
+.menu-head-top .menu-top-signin {
+    float: right;
+    padding-left: 600px;
+    padding-top: 30px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.menu-head-top .menu-top-signin span {
+    color: #66798a;
+    font-size: 13px;
+}
+.menu-head-top .menu-top-signin a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #0077a1;
+}
+nav {
+    float: left;
+}
+.logo {
+    float: left;
+    padding-left: 40px;
+    margin-top: 10px;
+}
+.menu-items {
+    float: left;
+}
+.menu-items ul li {
+    float: left;
+    list-style-type: none;
+    padding-left: 5px;
+    margin-top: 0px;
+}
+.menu-items ul li a{
+    text-decoration: none;
+    padding: 0 12px;
+    color: #94a5b4;
+}
+.menu-button {
+    float: left;
+    margin-top: 10px;
+}
+.menu-button span {
+    margin-left: 50px;
+    margin-right: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.menu-button span img {
+    margin-right: 4px;
+}
+.btn-sign {
+    background-color: #81bc1e;
+    width: 150px;
+    height: 30px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3px;
+}
+.btn-demo {
+    width: 150px;
+    height: 30px;
+    border: 0;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3px;
+}
+.banner {
+    float: left;
+    background-image: url(../BT09/img/Background-banner.png);
+    background-color: #034888;
+    width: 1280px;
+    height: 410px;
+    background-size: cover;
+    margin: 0 auto;
+}
+.register form {
+    padding: 30px;
+    width: 475px;
+    background-color: #034888;
+    color: #fff;
+    height: 350px;
+}
+.register form h1 {
+    font-size: 38px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.register form p {
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 0;
+}
+.register form input {
+    color: #8f8d8d;
+    line-height: 38px;
+    font-size: 12px;
+    border-radius: 3px;
+    border: 0;
+}
+.register form input[type=email] {
+    width: 447px;
+    margin: 10px auto;
+}
+.register form input[type=password], .register form input[type=phone] {
+    width: 214px;
+    margin-right: 13px;
+}
+.register form button[type=submit] {
+    width: 220px;
+    height: 70px;
+    margin-right: 17px;
+    background-color: #e0741d;
+    color: #ffffff;
+    border: 0px;
+    margin: 10px auto;
+    
+}
+.register form button[type=button] {
+    width: 220px;
+    height: 70px;
+    color: #ffffff;
+    background-color: #72a61a;
+    border: 0px;
+    margin: 10px ;
+    
+}
+.register form button[type=button] strong{
+    text-shadow: 0px 0px 4px brown;
+}
+p.term{
+    color: #39679a;
+}
+p.term strong{
+    color: white;
+}
+.one{
+    margin: 0 auto;
+    width: 1300px;
+}
+.customer-list{
+    list-style: none;
+    margin-left: 96px;
+    margin-top: 24px;
+    height: 80px;
+}
+.customer-list li{
+    float: left;
+    margin: 0 15px;
+}
+.customer-list >li:first-child h5{
+    color: #686767;
+    font-weight: 600;
+}
+.customer-list >li:first-child{
+    padding-right: 56px;
+}
+hr{
+    clear: both;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+.feature {
+    list-style: none; /*ko cham li*/
+    margin-left: 215px;
+    margin-top: 42px;
+    height: 80px;
+    width: 1280px;
+    margin: 0 auto;
+}
+.feature li {
+    width: 200px;
+    height: 500px;
+    float: left;
+    /*margin: 35px 15px;*/
+    list-style: none; 
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.slogan {
+    text-align: center;
+}
+.feature >li:first-child h4 {
+    color: #0f5599;
+}
+
+  

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(218, 233, 233);
+    }
+.wrapper{
+    width: 1000px;
+    margin: 20px;
+        }
+nav li{
+        display: inline;/*muốn menu đứng chung 1 dòng sử dụng inline*/
+        float:left;
+    }
+nav li a{
+    display: block;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    border: 2px solid #e7e7e7;
+}
+li a:hover {
+    background-color:#F03;}
+nav a.active{
+    background-color: #9F3;}
+/*li a:hover:not(.active){
+    background-color: #9F3;
+    color: white;}
+ (chỉ chỏ chuột vào thanh menu sẽ đồng nhất 1 màu xanh lá cây)*/ 
+.content{
+    padding: 0px 10px 0px 10px;
+    margin: 5px;
+    height: 532px;
+    width: 980px;
+        }
+.content_right{
+    float: right;
+    margin-right: 0px;}
+#content_in{
+    float: left;
+}
+#footer{
+    float: left;
+    margin-left: 50px;
+       }*/
